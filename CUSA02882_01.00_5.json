@@ -1,0 +1,109 @@
+{
+  "name": "Resident Evil Origins Collection",
+  "id": "CUSA02882",
+  "version": "01.00",
+  "process": "bh0hd.elf",
+  "mods": [
+    {
+      "name": "Здоровье / 1 Попадание мастер-кода",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "AFF800",
+          "on": "000066817F0113F1750B803DEFFFFFFF017416EB0E803DE5FFFFFF017505BE0000000089B750130000E9588C66FF",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "168480",
+          "on": "E97D73990090",
+          "off": "89B750130000"
+        }
+      ]
+    },
+    {
+      "name": "Бесконечное здоровье",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "AFF800",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "1 Попадание Убивает",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "AFF801",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Бесконечные ленты / Экономьте без лент",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1109B7",
+          "on": "9090",
+          "off": "29C8"
+        },
+        {
+          "offset": "110B25",
+          "on": "EB2A",
+          "off": "742A"
+        }
+      ]
+    },
+    {
+      "name": "Бездонная обойма",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1112A7",
+          "on": "9090",
+          "off": "29C1"
+        }
+      ]
+    },
+    {
+      "name": "Бесконечные боеприпасы",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1115CF",
+          "on": "9090",
+          "off": "29FE"
+        }
+      ]
+    },
+    {
+      "name": "Заморозить счетчик сохранений",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "28A350",
+          "on": "9090",
+          "off": "FF00"
+        }
+      ]
+    },
+    {
+      "name": "Бесконечные предметы",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "110BD5",
+          "on": "909090909090909090",
+          "off": "4BC744E60400000000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "TLH-Dmitry Shishkin"
+  ]
+}

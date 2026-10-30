@@ -1,0 +1,83 @@
+{
+  "name": "inFAMOUS: Second Son",
+  "id": "CUSA00004",
+  "version": "01.07",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Режим Бога",
+      "hint": null,
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "615c17",
+          "on": "909090909090909090",
+          "off": "C4C17A119650EE0100"
+        }
+      ]
+    },
+    {
+      "name": "Бесконечная энергия",
+      "hint": null,
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "60c7f9",
+          "on": "90909090909090909090",
+          "off": "C4C17A118424E8A10100"
+        }
+      ]
+    },
+    {
+      "name": "Бесконечные бомбы / ракеты",
+      "hint": null,
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5e35a8",
+          "on": "BE0500000089B7DC0000009090",
+          "off": "89B7DC00000080BFC90A020000"
+        }
+      ]
+    },
+    {
+      "name": "Бесконечные очки умений/Осколки",
+      "hint": null,
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5E22A4",
+          "on": "BBE7030000899FE00000009090",
+          "off": "899FE000000080BFC90A020000"
+        }
+      ]
+    },
+    {
+      "name": "Максимальный уровень Настоящего героя",
+      "hint": null,
+      "type": "button",
+      "memory": [
+        {
+          "offset": "12FADB8",
+          "on": "A0E68745",
+          "off": "A0E68745"
+        }
+      ]
+    },
+    {
+      "name": "Максимальный уровень Infamous",
+      "hint": null,
+      "type": "button",
+      "memory": [
+        {
+          "offset": "12FADB8",
+          "on": "00CAE6FD",
+          "off": "00CAE6FD"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Дмитрий Шишкин"
+  ]
+}

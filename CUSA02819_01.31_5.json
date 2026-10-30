@@ -1,0 +1,44 @@
+{
+  "name": "Tom Clancys Ghost Recon Wildlands",
+  "id": "CUSA02819",
+  "version": "01.31",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Бесконечные боеприпасы (смещение заполнителя)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "20ECAF",
+          "on": "9090",
+          "off": "29C7"
+        }
+      ]
+    },
+    {
+      "name": "255 очков навыков (при использовании)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "42E8C6",
+          "on": "66B9FF00",
+          "off": "8B4C8710"
+        }
+      ]
+    },
+    {
+      "name": "Оружие для полной разблокировки (смещение заполнителя)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "13579BD",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Wander_9.00 перевод DROFT1989"
+  ]
+}

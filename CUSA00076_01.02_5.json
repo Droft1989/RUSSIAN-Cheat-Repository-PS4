@@ -1,0 +1,87 @@
+{
+  "name": "The Order: 1886",
+  "id": "CUSA00076",
+  "version": "01.02",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Без перезарядки",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "0070C038",
+          "on": "909090909090",
+          "off": "298210030000"
+        }
+      ]
+    },
+    {
+      "name": "Бесконечное использование боеприпасов",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "00752542",
+          "on": "9090",
+          "off": "29D8"
+        },
+        {
+          "offset": "0055520F",
+          "on": "9090",
+          "off": "29D8"
+        }
+      ]
+    },
+    {
+      "name": "Бесконечное использование гранат",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "006E7C0B",
+          "on": "9090",
+          "off": "FFC8"
+        }
+      ]
+    },
+    {
+      "name": "Всегда доступен черный прицел",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "005A4D94",
+          "on": "5F",
+          "off": "5D"
+        }
+      ]
+    },
+    {
+      "name": "Бесконечное здоровье",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "009F9240",
+          "on": "9090E9090DBC00",
+          "off": "4C899FF0000000"
+        },
+        {
+          "offset": "015B9F50",
+          "on": "807F330090909075030F57C04C899FF0000000E9DFF243FF",
+          "off": "000000000000000000000000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "name": "Убийство с 1 выстрела",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "00D5E770",
+          "on": "11",
+          "off": "10"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Fullcodes translated by Dmitry Shishkin"
+  ]
+}
